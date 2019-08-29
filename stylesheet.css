@@ -41,7 +41,7 @@ h3 {
 #nav li {
     margin: 0;
     padding: 0;
-	  border-bottom: 1px solid #ccc;
+	  border-bottom: 1px solid #542052;
 }
 
 #nav a:link, #nav a:visited {
@@ -79,7 +79,7 @@ h3 {
   	  border-bottom: 1px solid #ccc;
   }
 
-#sociallinks a:link, #nav a:visited {
+#sociallinks a:link, #sociallinks a:visited {
   	  display:block;
       color: #ffffff;
       background-color: #98bf21;
