@@ -68,7 +68,7 @@ h3 {
     text-align: right;
 }
 #jokes li {
-  text-decoration: none;
+  list-style-type: none;
   font-family: "Century Gothic," Arial, sans-serif;
 }
 
