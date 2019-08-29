@@ -1,0 +1,102 @@
+
+/*styles go here*/
+
+/*p {
+    color: red;
+}*/
+
+p {
+	 color: #black;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+h1 {
+    color: #542052
+    font-family: "Century Gothic," Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #914a8f
+    font-family: "Century Gothic," Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: #914a8f
+    font-family: "Century Gothic," Arial, sans-serif;
+    font-style: italic;
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+	  list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	  border-bottom: 1px solid #ccc;
+}
+
+#nav a:link, #nav a:visited {
+	  display:block;
+    color: #542052;
+    background-color: #f0bdee;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Century Gothic," Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #ffffff;
+}
+
+.caption {
+    color: black;
+    font-family: "Century Gothic," Arial, sans-serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: right;
+}
+
+#sociallinks {
+      padding: 0;
+  	  list-style-type: none;
+  }
+
+#sociallinks li {
+      margin: 0;
+      padding: 0;
+  	  border-bottom: 1px solid #ccc;
+  }
+
+#sociallinks a:link, #nav a:visited {
+  	  display:block;
+      color: #ffffff;
+      background-color: #98bf21;
+      font-weight: bold;
+      text-align:center;
+      text-decoration: none;
+      padding: 4px;
+      font-family: Helvetica, Arial, sans-serif;
+}
+
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+}
+
+img {
+	border: none;
+}
