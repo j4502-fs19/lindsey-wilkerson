@@ -13,19 +13,17 @@ p {
 h1 {
     color: #542052
     font-family: 'Gayathri', sans-serif;
-    font-weight: bold;
 }
 
 h2 {
     color: #914a8f
     font-family: 'Gayathri', sans-serif;
-    font-weight: bold;
 }
 
 h3 {
     color: #914a8f
     font-family: 'Gayathri', sans-serif;
-    font-style: italic;
+    font-style:400;
 }
 
 #container{
