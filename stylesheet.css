@@ -49,7 +49,7 @@ h3 {
     color: #542052;
     background-color: #f0bdee;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     text-decoration: none;
     padding: 4px;
     font-family: "Century Gothic," Arial, sans-serif;
@@ -67,6 +67,12 @@ h3 {
     margin-top: 0;
     text-align: right;
 }
+#jokes li {
+  text-decoration: none;
+  font-family: "Century Gothic," Arial, sans-serif;
+}
+
+
 
 #sociallinks {
       padding: 0;
@@ -80,15 +86,19 @@ h3 {
   }
 
 #sociallinks a:link, #sociallinks a:visited {
-  	  display:block;
+  	  display: block;
       color: #ffffff;
       background-color: #98bf21;
       font-weight: bold;
       text-align:center;
       text-decoration: none;
       padding: 4px;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Century Gothic," Arial, sans-serif;
 }
+#sociallinks a:hover, #sociallinks a:active {
+    background-color: #ffffff;
+}
+
 
 #footer {
     color: black;
