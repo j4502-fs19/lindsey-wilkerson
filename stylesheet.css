@@ -7,24 +7,24 @@
 
 p {
 	 color: #black;
-    font-family: "Century Gothic", Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
 }
 
 h1 {
     color: #542052
-    font-family: "Century Gothic," Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
     font-weight: bold;
 }
 
 h2 {
     color: #914a8f
-    font-family: "Century Gothic," Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
     font-weight: bold;
 }
 
 h3 {
     color: #914a8f
-    font-family: "Century Gothic," Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
     font-style: italic;
 }
 
@@ -52,7 +52,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     padding: 4px;
-    font-family: "Century Gothic," Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
 }
 
 #nav a:hover, #nav a:active {
@@ -61,7 +61,7 @@ h3 {
 
 .caption {
     color: black;
-    font-family: "Century Gothic," Arial, sans-serif;
+    font-family: 'Gayathri', sans-serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -70,7 +70,7 @@ h3 {
 #jokes li {
   list-style-type: none;
   text-decoration: none;
-  font-family: "Century Gothic," Arial, sans-serif;
+  font-family: 'Gayathri', sans-serif;
 }
 
 #socialheader {
@@ -96,7 +96,7 @@ h3 {
       text-align:center;
       text-decoration: none;
       padding: 4px;
-      font-family: "Century Gothic," Arial, sans-serif;
+      font-family: 'Gayathri', sans-serif;
 }
 #sociallinks a:hover, #sociallinks a:active {
     background-color: #ffffff;
@@ -105,7 +105,7 @@ h3 {
 
 #footer {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Gayathri', sans-serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
