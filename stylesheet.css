@@ -69,10 +69,13 @@ h3 {
 }
 #jokes li {
   list-style-type: none;
+  text-decoration: none;
   font-family: "Century Gothic," Arial, sans-serif;
 }
 
-
+#socialheader {
+  text-align: center;
+}
 
 #sociallinks {
       padding: 0;
@@ -82,13 +85,13 @@ h3 {
 #sociallinks li {
       margin: 0;
       padding: 0;
-  	  border-bottom: 1px solid #ccc;
+  	  border-bottom: 1px solid #542052;
   }
 
 #sociallinks a:link, #sociallinks a:visited {
   	  display: block;
-      color: #ffffff;
-      background-color: #98bf21;
+      color: #542052;
+      background-color: #f0bdee;
       font-weight: bold;
       text-align:center;
       text-decoration: none;
