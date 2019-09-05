@@ -1,27 +1,27 @@
 p {
-    color: #000000;
+    color: #FFF4E0;
     font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    color: #542052;
+    color: #4477B3;
     font-family: 'Cookie', cursive;
 }
 
 h2 {
-    color: #914a8f;
+    color: #FFF4E0;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
 h3 {
-    color: #914a8f;
+    color: #B38432;
     font-family: 'Playfair Display', serif;
     font-style:400;
 }
 
 body {
-  background-color: #fae8ff
+  background-color: #94C6FF
 }
 
 .container {
@@ -37,13 +37,13 @@ body {
 #nav li {
     margin: 0;
     padding: 0;
-	  border: 1px solid #542052;
+	  border: 1px solid #B38432;
 }
 
 #nav a:link, #nav a:visited {
 	  display: block;
-    color: #542052;
-    background-color: #f0bdee;
+    color: #FFF4E0;
+    background-color: #4477B3;
     text-align: center;
     text-decoration: none;
     padding: 4px;
@@ -51,7 +51,7 @@ body {
 }
 
 #nav a:hover, #nav a:active {
-    background-color: #ffffff;
+    background-color: #94C6FF;
 }
 
 .caption {
@@ -76,13 +76,13 @@ body {
 #sociallinks li {
       margin: 0;
       padding: 0;
-      border: 1px solid #542052;
+      border: 1px solid #B38432;
   }
 
 #sociallinks a:link, #sociallinks a:visited {
   	  display: block;
-      color: #542052;
-      background-color: #f0bdee;
+      color: #FFF4E0;
+      background-color: #4477B3;
       text-align: center;
       text-decoration: none;
       padding: 4px;
@@ -94,10 +94,10 @@ body {
 }
 
 #footer {
-    color: black;
+    color: #4477B3;
     font-family: 'Playfair Display', serif;
     font-size: 0.8em;
-    border-top: 1px solid black;
+    border-top: 1px solid #4477B3;
     padding-top: 10px
 }
 
