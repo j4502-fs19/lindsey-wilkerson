@@ -1,23 +1,32 @@
 p {
     color: #FFF4E0;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 h1 {
     color: #4477B3;
     font-family: 'Cookie', cursive;
+    text-align: center;
+    font-size: 48pt;
+    margin: 0
 }
 
 h2 {
     color: #FFF4E0;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+    margin: 0;
 }
 
 h3 {
     color: #B38432;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
 }
 
 body {
