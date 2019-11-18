@@ -1,19 +1,18 @@
 p {
     color: #FFF4E0;
     font-family: 'Playfair Display', serif;
-    text-align: center;
 }
 
 h1 {
-    color: #4477B3;
+    color: #392726;
     font-family: 'Cookie', cursive;
     text-align: center;
-    font-size: 48pt;
-    margin: 0
+    font-size: 84pt;
+    margin: 0;
 }
 
 h2 {
-    color: #FFF4E0;
+    color: #BF8E8E;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -22,7 +21,7 @@ h2 {
 }
 
 h3 {
-    color: #B38432;
+    color: #392726;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-align: center;
@@ -30,17 +29,12 @@ h3 {
 }
 
 body {
-  background-color: #94C6FF
+  background-color: #D8CCAE;
 }
 
 .navcontainer {
     max-width: 95%;
     margin: 0 auto;
-}
-
-.textcontainer {
-  max-width: 60%;
-  margin: 0 auto;
 }
 
 .menu-trigger{
@@ -50,23 +44,22 @@ body {
 }
 
 #nav {
-    padding: 0;
-	  list-style-type: none;
-    display:none;
-  /*  display: flex;
-    flex-direction: column;*/
+    display: none;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #nav li {
     margin: 0;
-    padding: 0;
-	  border: 1px solid #B38432;
+    list-style-type: none;
+    padding: 10px;
 }
 
 #nav a:link, #nav a:visited {
 	  display: block;
     color: #FFF4E0;
-    background-color: #4477B3;
+    background-color: #BF8E8E;
     text-align: center;
     text-decoration: none;
     padding: 4px;
@@ -74,7 +67,7 @@ body {
 }
 
 #nav a:hover, #nav a:active {
-    background-color: #94C6FF;
+    background-color: #D9B97E;
 }
 
 .caption {
@@ -85,11 +78,6 @@ body {
     margin-top: 0;
     text-align: right;
 }
-#jokes li {
-  list-style-type: none;
-  text-decoration: none;
-  font-family: 'Playfair Display', serif;
-}
 
 #sociallinks {
       padding: 0;
@@ -99,13 +87,12 @@ body {
 #sociallinks li {
       margin: 0;
       padding: 0;
-      border: 1px solid #B38432;
   }
 
 #sociallinks a:link, #sociallinks a:visited {
   	  display: block;
       color: #FFF4E0;
-      background-color: #4477B3;
+      background-color: #BF8E8E;
       text-align: center;
       text-decoration: none;
       padding: 4px;
@@ -113,15 +100,15 @@ body {
 }
 
 #sociallinks a:hover, #sociallinks a:active {
-    background-color: #94C6FF;
+    background-color: #D9B97E;
 }
 
 #footer {
-    color: #4477B3;
+    color: #392726;
     font-family: 'Playfair Display', serif;
     font-size: 0.8em;
-    border-top: 1px solid #4477B3;
-    padding-top: 10px
+    border-top: 1px solid #392726;
+    padding: 20px
 }
 
 img {
@@ -147,7 +134,7 @@ img {
   }
 
 .quickfacts li {
-    background-color: #B38432;
+    background-color: #BF8E8E;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
@@ -170,11 +157,29 @@ img {
 }
 
 @media screen and (min-width:500px) {
-  #nav {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+  body {
+    padding: 0;
+    margin: 0;
   }
+
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #BF8E8E;
+  }
+
+  #nav li {
+    padding: 5px;
+  }
+
+  .navcontainer {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   .quickfacts {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas:
@@ -183,7 +188,7 @@ img {
       "d d d";
       justify-items: center;
     }
-    .textcontainer {
+    .homeheader {
       max-width: 80%;
       margin: 0 auto;
     }
@@ -203,7 +208,7 @@ img {
       justify-items: stretch;
     }
 
-    .textcontainer {
+    .homeheader {
       max-width: 90%;
       margin: 0 auto;
     }
