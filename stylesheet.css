@@ -105,50 +105,34 @@ body {
 
 .home3 {
   grid-area: c;
+  padding-bottom: 10px;
 }
 
 .home3 img {
   width: 100px;
 }
 
-#sociallinks {
-      padding: 0;
-  	  list-style-type: none;
-  }
-
-#sociallinks li {
-      margin: 0;
-      padding: 0;
-  }
-
-#sociallinks a:link, #sociallinks a:visited {
-  	  display: block;
-      color: #FFF4E0;
-      background-color: #BF8E8E;
-      text-align: center;
-      text-decoration: none;
-      padding: 4px;
-      font-family: 'Playfair Display', serif;
+.selfbackground {
+  text-align: center;
+  padding: 10px;
+  background-color: #D9B97E;
+  text-align: left;
+  padding: 35px;
 }
 
-#sociallinks a:hover, #sociallinks a:active {
-    background-color: #D9B97E;
+.selfbackground h2 {
+  color: #FFF4E0;
+  font-size: 26pt;
+  text-align: center;
 }
 
-#footer {
-    color: #392726;
-    font-family: 'Playfair Display', serif;
-    font-size: 0.8em;
-    border-top: 1px solid #392726;
-    padding: 20px
-}
 
 img {
 	border: none;
 }
 
 .quickfacts {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0;
     list-style: none;
     display: grid;
@@ -167,9 +151,10 @@ img {
 
 .quickfacts li {
     background-color: #BF8E8E;
-    border: 1px solid #ccc;
+    border: 5px solid #D9B97E;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .card1{
@@ -186,6 +171,49 @@ img {
 
 .card4{
   grid-area:d;
+}
+
+.footer {
+  color: #392726;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
+  border-top: 1px solid #392726;
+  padding: 20px
+}
+
+#lindseysocials {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+#lindseysocials li {
+  margin: 0;
+  padding: 0;
+}
+
+#sociallinks a:link, #sociallinks a:visited {
+  	  display: block;
+      color: #FFF4E0;
+      background-color: #BF8E8E;
+      text-align: center;
+      text-decoration: none;
+      padding: 4px;
+      font-family: 'Playfair Display', serif;
+}
+
+#sociallinks a:hover, #sociallinks a:active {
+    background-color: #D9B97E;
+}
+
+#websiteinfo {
+    color: #392726;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+    border-top: 1px solid #392726;
+    padding: 20px
 }
 
 @media screen and (min-width:500px) {
@@ -265,7 +293,13 @@ img {
     justify-items: stretch;
   }
 
-  .menu-trigger{
+.menu-trigger{
     display: none;
   }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 }
