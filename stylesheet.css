@@ -6,7 +6,6 @@ p {
 h1 {
     color: #392726;
     font-family: 'Cookie', cursive;
-    text-align: center;
     font-size: 84pt;
     margin: 0;
 }
@@ -15,7 +14,6 @@ h2 {
     color: #BF8E8E;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    text-align: center;
     font-size: 16pt;
     margin: 0;
 }
@@ -24,12 +22,10 @@ h3 {
     color: #392726;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    text-align: center;
-    margin: 20px 0px 0px 0px;
 }
 
 body {
-  background-color: #D8CCAE;
+  background-color: #FFF4E0;
 }
 
 .navcontainer {
@@ -39,7 +35,7 @@ body {
 
 .menu-trigger{
   text-decoration: none;
-  color: #FFF4E0;
+  color: #392726;
   font-size: 25px;
 }
 
@@ -77,6 +73,42 @@ body {
     font-size: 0.8em;
     margin-top: 0;
     text-align: right;
+}
+
+.homeheader {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr
+  padding: 0;
+  grid-gap: 5px;
+  grid-template-areas:
+  "c a a"
+  "c b b";
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.home1 {
+  grid-area: a;
+  place-self: center;
+  text-align: center;
+  font-size: 30pt;
+}
+
+.home2 {
+  grid-area: b;
+  place-self: start center;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.home3 {
+  grid-area: c;
+}
+
+.home3 img {
+  width: 100px;
 }
 
 #sociallinks {
@@ -157,7 +189,6 @@ img {
 }
 
 @media screen and (min-width:500px) {
-
   body {
     padding: 0;
     margin: 0;
@@ -172,6 +203,20 @@ img {
 
   #nav li {
     padding: 5px;
+  }
+
+  .homeheader {
+    grid-template-areas:
+    "c a a"
+    "c b b";
+  }
+
+  .home3 img {
+    width: 200px;
+  }
+
+  .home1 {
+    font-size: 50pt;
   }
 
   .navcontainer {
@@ -200,20 +245,27 @@ img {
 }
 
 @media screen and (min-width:750px) {
-  .quickfacts {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-areas:
-      "b b a a"
-      "c c d d";
-      justify-items: stretch;
-    }
+.home3 img {
+  width: 400px;
+}
 
-    .homeheader {
-      max-width: 90%;
-      margin: 0 auto;
-    }
+.home1 {
+  font-size: 84pt;
+}
 
-    .menu-trigger{
-      display: none;
-    }
+.home2 {
+  font-size: 16pt;
+}
+
+.quickfacts {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "b b a a"
+    "c c d d";
+    justify-items: stretch;
+  }
+
+  .menu-trigger{
+    display: none;
+  }
 }
