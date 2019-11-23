@@ -1,12 +1,12 @@
 p {
-    color: #FFF4E0;
+    color: #392726;
     font-family: 'Playfair Display', serif;
 }
 
 h1 {
     color: #392726;
     font-family: 'Cookie', cursive;
-    font-size: 84pt;
+    font-size: 40pt;
     margin: 0;
 }
 
@@ -49,7 +49,7 @@ body {
 #nav li {
     margin: 0;
     list-style-type: none;
-    padding: 10px;
+    padding: 0px;
 }
 
 #nav a:link, #nav a:visited {
@@ -122,14 +122,13 @@ body {
 
 .selfbackground h2 {
   color: #FFF4E0;
-  font-size: 26pt;
+  font-size: 16pt;
   text-align: center;
 }
 
 .selfbackground h3 {
   font-size: 12pt;
 }
-
 
 img {
 	border: none;
@@ -183,6 +182,92 @@ img {
   padding: 0px;
 }
 
+.youtube {
+  text-align: center;
+}
+
+.youtube h1 {
+  font-size: 40pt;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.blogpost {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.blogpost a:link, .blogpost a:visited {
+    color: #BF8E8E;
+    text-decoration: none;
+}
+
+.blogpost a:hover, .blogpost a:active {
+    color: #D9B97E;
+}
+
+.webstory {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.webstory h1 {
+  text-align: center;
+  font-size:40pt;
+}
+
+.webstory h3 {
+  text-align: center;
+  font-size: 12pt;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume h1 {
+  font-size: 40pt;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.aboutme {
+  /* display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around; */
+  display: relative;
+}
+
+.writeup {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.writeup h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.headshot {
+  text-align: center;
+}
+
 .footer h3 {
   text-align: center;
   font-size: 16pt;
@@ -231,7 +316,7 @@ img {
     text-align: center;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:600px) {
   body {
     padding: 0;
     margin: 0;
@@ -285,6 +370,11 @@ img {
       display: none;
     }
 
+.aboutme{
+
+}
+
+
 }
 
 @media screen and (min-width:750px) {
@@ -301,7 +391,7 @@ img {
 }
 
 .selfbackground h2 {
-  font-size: 16pt;
+  font-size: 26pt;
 }
 
 .selfbackground h3 {
@@ -319,5 +409,29 @@ img {
 .menu-trigger{
     display: none;
   }
+
+.blogpost {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.writeup {
+  width: 50vw;
+}
+
+.writeup h2 {
+  text-align: left;
+}
+
+.headshot {
+  margin-right: 70px;
+  margin-top: 100px;
+}
 
 }
